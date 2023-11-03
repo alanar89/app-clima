@@ -3,7 +3,7 @@ import { LoadingButton } from "@mui/lab";
 import { useState } from "react";
 import Clima from "./components/Clima";
 import Footer from "./components/Footer";
-const API_WEATHER = `http://api.weatherapi.com/v1/forecast.json?key=${
+const API_WEATHER = `https://api.weatherapi.com/v1/forecast.json?key=${
   import.meta.env.VITE_API_KEY
 }&lang=es&q=`;
 
